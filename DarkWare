@@ -1,5 +1,6 @@
 game:GetService("StarterGui"):SetCore("SendNotification", {Title = "DarkWare", Text = "Made By !Arvin."})
-
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer('DarkWare Made By Arvin', 'All')
+game:GetService("StarterGui"):SetCore("SendNotification", {Title = "DarkWare", Text = "Press Q to Lock."})
 _G.KEY = "q"
 		_G.PART = "HumanoidRootPart"
 		_G.PRED = 0.057
